@@ -30,7 +30,7 @@ formula = '0'
 label_text = tk.Label(text = formula, font = ('Roboto', 30,'bold'), bg = 'black', fg = 'white')
 label_text.place(x = 18, y = 50)
 # Создаем кнопки
-buttons = ['C','del','*','=','1','2','3','/','4','5','6','+','7','8','9','-','+/-','0','x^2']
+buttons = ['C','del','+/-','*','7','8','9','/','4','5','6','+','1','2','3','-','0','00','x^2','=']
 x = 18
 y = 140
 for button in buttons:
